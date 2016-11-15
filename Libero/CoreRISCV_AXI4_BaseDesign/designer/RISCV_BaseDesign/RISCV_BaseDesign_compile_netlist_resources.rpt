@@ -1,0 +1,235 @@
+Resource Report
+Microsemi Corporation - Microsemi Libero Software Release v11.7 (Version 11.7.0.119)
+Date: Fri Nov 11 10:14:13 2016
+
+Device Selection
++--------------------------------+----------------+
+| Family                         | SmartFusion2   |
+| Device                         | M2S025         |
+| Package                        | 256 VF         |
+| Speed Grade                    | STD            |
+| Temp                           | 0:25:85        |
+| Voltage                        | 1.26:1.20:1.14 |
+| Core Voltage                   | 1.2V           |
+| Ramp Rate                      | 100ms Minimum  |
+| System Controller Suspend Mode | No             |
+| PLL Supply Voltage             | 2.5V           |
+| Default I/O technology         | LVCMOS 2.5V    |
+| Restrict Probe Pins            | Yes            |
+| Restrict SPI Pins              | No             |
++--------------------------------+----------------+
+
+Source Files
++---------+------------------------------------------------------------------------------------------------------------------------+
+| Topcell | RISCV_BaseDesign                                                                                                       |
+| Format  | EDIF                                                                                                                   |
+| Source  | /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/synthesis/RISCV_BaseDesign.edn |
++---------+------------------------------------------------------------------------------------------------------------------------+
+
+Options
++----------------------------------------------------+-------+
+| Enable Single Event Transient mitigation           | false |
+| Enable Design Separation Methodology               | false |
+| Limit the number of high fanout nets to display to | 10    |
++----------------------------------------------------+-------+
+
+Resource Usage
++---------------------------+-------+-------+------------+
+| Type                      | Used  | Total | Percentage |
++---------------------------+-------+-------+------------+
+| 4LUT                      | 13804 | 27696 | 49.84      |
+| DFF                       | 10700 | 27696 | 38.63      |
+| I/O Register              | 0     | 414   | 0.00       |
+| User I/O                  | 61    | 138   | 44.20      |
+| -- Single-ended I/O       | 55    | 138   | 39.86      |
+| -- Differential I/O Pairs | 3     | 65    | 4.62       |
+| RAM64x18                  | 30    | 34    | 88.24      |
+| RAM1K18                   | 12    | 31    | 38.71      |
+| MACC                      | 2     | 34    | 5.88       |
+| Chip Globals              | 9     | 16    | 56.25      |
+| CCC                       | 1     | 6     | 16.67      |
+| RCOSC_25_50MHZ            | 1     | 1     | 100.00     |
+| RCOSC_1MHZ                | 0     | 1     | 0.00       |
+| XTLOSC                    | 0     | 1     | 0.00       |
+| MSS                       | 1     | 1     | 100.00     |
++---------------------------+-------+-------+------------+
+
+Detailed Logic Resource Usage
++--------------------------+-------+-------+
+| Type                     | 4LUT  | DFF   |
++--------------------------+-------+-------+
+| Fabric Logic             | 12220 | 9116  |
+| RAM64x18 Interface Logic | 1080  | 1080  |
+| RAM1K18 Interface Logic  | 432   | 432   |
+| MACC Interface Logic     | 72    | 72    |
+| Total Used               | 13804 | 10700 |
++--------------------------+-------+-------+
+
+MSS Resource Usage
++---------------+------+-------+
+| Type          | Used | Total |
++---------------+------+-------+
+| Cortex-M3*    | 1    | 1     |
+| eNVM (256KB)* | 1    | 1     |
+| eSRAM*        | 2    | 2     |
+| TIMER*        | 2    | 2     |
+| CAN           | 0    | 1     |
+| SPI           | 0    | 2     |
+| I2C           | 0    | 2     |
+| UART          | 0    | 2     |
+| USB           | 0    | 1     |
+| MAC           | 0    | 1     |
+| MDDR          | 1    | 1     |
+| HPDMA         | 0    | 1     |
+| PDMA          | 0    | 1     |
++---------------+------+-------+
+
+* These resources are always marked as used when you are using the MSS
+
+Detailed Carry Chains Resource Usage
++--------+------+
+| Length | Used |
+| 7      | 4    |
+| 8      | 5    |
+| 11     | 4    |
+| 14     | 2    |
+| 17     | 4    |
+| 30     | 2    |
+| 32     | 5    |
+| 33     | 4    |
+| 49     | 1    |
+| 58     | 1    |
+| 59     | 1    |
+| 64     | 1    |
+| 65     | 1    |
+| Total  | 35   |
++--------+------+
+
+Detailed MACC Resource Usage
++--------+------+
+| Length | Used |
+| 2      | 1    |
+| Total  | 1    |
++--------+------+
+
+I/O Function
++--------------------------------------+--------------+-------------+-----------------+
+| Type                                 | w/o register | w/ register | w/ DDR register |
++--------------------------------------+--------------+-------------+-----------------+
+| Input I/O                            | 5            | 0           | 0               |
+| Output I/O                           | 32           | 0           | 0               |
+| Bidirectional I/O                    | 18           | 0           | 0               |
+| Differential Input I/O Pairs         | 0            | 0           | 0               |
+| Differential Output I/O Pairs        | 1            | 0           | 0               |
+| Differential Bidirectional I/O Pairs | 2            | 0           | 0               |
++--------------------------------------+--------------+-------------+-----------------+
+
+I/O Technology
++--------------------------------+--------+--------+-------+--------+---------------+
+| I/O Standard                   | Vddi   | Vref   | Input | Output | Bidirectional |
++--------------------------------+--------+--------+-------+--------+---------------+
+| LVCMOS25                       |  2.50v |  N/A   |  4    |  5     |  0            |
+| SSTL18II (Input/Bidirectional) |  1.80v |  1.00v |  1    |  0     |  22           |
+| SSTL18II (Output)              |  1.80v |  N/A   |  0    |  29    |  0            |
++--------------------------------+--------+--------+-------+--------+---------------+
+
+I/O Placement
++----------+-------+------------+
+| Type     | Count | Percentage |
++----------+-------+------------+
+| Locked   |  52   | 85.25%     |
+| Placed   |  0    | 0.00%      |
+| UnPlaced |  9    | 14.75%     |
++----------+-------+------------+
+
+Nets assigned to chip global resources
++--------+---------+-------------------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                                      |
++--------+---------+-------------------------------------------------------------------------------------------+
+| 8946   | INT_NET | Net   : FIC_0_CLK                                                                         |
+|        |         | Driver: uncore/MSS_SUBSYSTEM_sb_0/CCC_0/GL0_INST/U0_RGB1                                  |
+|        |         | Source: NETLIST                                                                           |
+| 1488   | INT_NET | Net   : syncResetReg                                                                      |
+|        |         | Driver: syncResetReg_RNIURH9/U0_RGB1                                                      |
+|        |         | Source: NETLIST                                                                           |
+| 140    | INT_NET | Net   : core_TCK                                                                          |
+|        |         | Driver: coretck_clkint/U0_RGB1                                                            |
+|        |         | Source: NETLIST                                                                           |
+| 80     | INT_NET | Net   : uncore/MSS_SUBSYSTEM_sb_0/CORECONFIGP_0_APB_S_PRESET_N                            |
+|        |         | Driver: uncore/MSS_SUBSYSTEM_sb_0/MSS_SUBSYSTEM_sb_MSS_0/MSS_ADLIB_INST_RNIRSLD_0/U0_RGB1 |
+|        |         | Source: NETLIST                                                                           |
+| 78     | INT_NET | Net   : uncore/MSS_SUBSYSTEM_sb_0/CORECONFIGP_0_APB_S_PCLK                                |
+|        |         | Driver: uncore/MSS_SUBSYSTEM_sb_0/MSS_SUBSYSTEM_sb_MSS_0/MSS_ADLIB_INST_RNIRSLD/U0_RGB1   |
+|        |         | Source: NETLIST                                                                           |
+| 75     | INT_NET | Net   : URSTB                                                                             |
+|        |         | Driver: UJTAG_0_RNIA0L1/U0_RGB1                                                           |
+|        |         | Source: NETLIST                                                                           |
+| 31     | INT_NET | Net   : uncore/MSS_SUBSYSTEM_sb_0/FABOSC_0_RCOSC_25_50MHZ_O2F                             |
+|        |         | Driver: uncore/MSS_SUBSYSTEM_sb_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT/U0_RGB1            |
+|        |         | Source: NETLIST                                                                           |
+| 26     | INT_NET | Net   : uncore/MSS_SUBSYSTEM_sb_0/CORERESETP_0/sm0_areset_n_clk_base                      |
+|        |         | Driver: uncore/MSS_SUBSYSTEM_sb_0/CORERESETP_0/sm0_areset_n_clk_base_RNIO4TB/U0_RGB1      |
+|        |         | Source: NETLIST                                                                           |
+| 17     | INT_NET | Net   : uncore/MSS_SUBSYSTEM_sb_0/CORERESETP_0/sm0_areset_n_rcosc                         |
+|        |         | Driver: uncore/MSS_SUBSYSTEM_sb_0/CORERESETP_0/sm0_areset_n_rcosc_RNIU6V4/U0_RGB1         |
+|        |         | Source: NETLIST                                                                           |
++--------+---------+-------------------------------------------------------------------------------------------+
+
+Nets assigned to row global resources
++--------+------+------+
+| Fanout | Type | Name |
++--------+------+------+
++--------+------+------+
+
+High fanout nets
++--------+---------+-------------------------------------------------------------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                                                                                |
++--------+---------+-------------------------------------------------------------------------------------------------------------------------------------+
+| 778    | INT_NET | Net   : syncResetReg_0                                                                                                              |
+|        |         | Driver: syncResetReg                                                                                                                |
+| 514    | INT_NET | Net   : uncore/COREAXITOAHBL_1/rdFIFORdAddr[1]                                                                                      |
+|        |         | Driver: uncore/COREAXITOAHBL_1/U_AXISlaveCtrl/rdFIFORdAddr[1]                                                                       |
+| 514    | INT_NET | Net   : uncore/COREAXITOAHBL_1/wrFIFORdAddr[1]                                                                                      |
+|        |         | Driver: uncore/COREAXITOAHBL_1/U_AHBMasterCtrl/wrFIFORdAddr[1]                                                                      |
+| 514    | INT_NET | Net   : uncore/COREAXITOAHBL_0/rdFIFORdAddr[1]                                                                                      |
+|        |         | Driver: uncore/COREAXITOAHBL_0/U_AXISlaveCtrl/rdFIFORdAddr[1]                                                                       |
+| 514    | INT_NET | Net   : uncore/COREAXITOAHBL_0/wrFIFORdAddr[1]                                                                                      |
+|        |         | Driver: uncore/COREAXITOAHBL_0/U_AHBMasterCtrl/wrFIFORdAddr[1]                                                                      |
+| 259    | INT_NET | Net   : uncore/COREAXITOAHBL_1/wrFIFORdAddr[0]                                                                                      |
+|        |         | Driver: uncore/COREAXITOAHBL_1/U_AHBMasterCtrl/wrFIFORdAddr[0]                                                                      |
+| 259    | INT_NET | Net   : uncore/COREAXITOAHBL_0/rdFIFORdAddr[0]                                                                                      |
+|        |         | Driver: uncore/COREAXITOAHBL_0/U_AXISlaveCtrl/rdFIFORdAddr[0]                                                                       |
+| 259    | INT_NET | Net   : uncore/COREAXITOAHBL_0/wrFIFORdAddr[0]                                                                                      |
+|        |         | Driver: uncore/COREAXITOAHBL_0/U_AHBMasterCtrl/wrFIFORdAddr[0]                                                                      |
+| 258    | INT_NET | Net   : uncore/COREAXITOAHBL_1/rdFIFORdAddr[0]                                                                                      |
+|        |         | Driver: uncore/COREAXITOAHBL_1/U_AXISlaveCtrl/rdFIFORdAddr[0]                                                                       |
+| 238    | INT_NET | Net   : core/CORERISCV_AXI4_0/ChiselTop0/uncore/T_213                                                                               |
+|        |         | Driver: core/CORERISCV_AXI4_0/ChiselTop0/uncore/TileLinkRecursiveInterconnect_2/xbar/ClientUncachedTileLinkIORouter_1/gnt_arb/T_628 |
++--------+---------+-------------------------------------------------------------------------------------------------------------------------------------+
+
+High fanout nets (through buffer trees)
++--------+---------+-------------------------------------------------------------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                                                                                |
++--------+---------+-------------------------------------------------------------------------------------------------------------------------------------+
+| 778    | INT_NET | Net   : syncResetReg_0                                                                                                              |
+|        |         | Driver: syncResetReg                                                                                                                |
+| 514    | INT_NET | Net   : uncore/COREAXITOAHBL_1/rdFIFORdAddr[1]                                                                                      |
+|        |         | Driver: uncore/COREAXITOAHBL_1/U_AXISlaveCtrl/rdFIFORdAddr[1]                                                                       |
+| 514    | INT_NET | Net   : uncore/COREAXITOAHBL_1/wrFIFORdAddr[1]                                                                                      |
+|        |         | Driver: uncore/COREAXITOAHBL_1/U_AHBMasterCtrl/wrFIFORdAddr[1]                                                                      |
+| 514    | INT_NET | Net   : uncore/COREAXITOAHBL_0/rdFIFORdAddr[1]                                                                                      |
+|        |         | Driver: uncore/COREAXITOAHBL_0/U_AXISlaveCtrl/rdFIFORdAddr[1]                                                                       |
+| 514    | INT_NET | Net   : uncore/COREAXITOAHBL_0/wrFIFORdAddr[1]                                                                                      |
+|        |         | Driver: uncore/COREAXITOAHBL_0/U_AHBMasterCtrl/wrFIFORdAddr[1]                                                                      |
+| 259    | INT_NET | Net   : uncore/COREAXITOAHBL_1/wrFIFORdAddr[0]                                                                                      |
+|        |         | Driver: uncore/COREAXITOAHBL_1/U_AHBMasterCtrl/wrFIFORdAddr[0]                                                                      |
+| 259    | INT_NET | Net   : uncore/COREAXITOAHBL_0/rdFIFORdAddr[0]                                                                                      |
+|        |         | Driver: uncore/COREAXITOAHBL_0/U_AXISlaveCtrl/rdFIFORdAddr[0]                                                                       |
+| 259    | INT_NET | Net   : uncore/COREAXITOAHBL_0/wrFIFORdAddr[0]                                                                                      |
+|        |         | Driver: uncore/COREAXITOAHBL_0/U_AHBMasterCtrl/wrFIFORdAddr[0]                                                                      |
+| 258    | INT_NET | Net   : uncore/COREAXITOAHBL_1/rdFIFORdAddr[0]                                                                                      |
+|        |         | Driver: uncore/COREAXITOAHBL_1/U_AXISlaveCtrl/rdFIFORdAddr[0]                                                                       |
+| 238    | INT_NET | Net   : core/CORERISCV_AXI4_0/ChiselTop0/uncore/T_213                                                                               |
+|        |         | Driver: core/CORERISCV_AXI4_0/ChiselTop0/uncore/TileLinkRecursiveInterconnect_2/xbar/ClientUncachedTileLinkIORouter_1/gnt_arb/T_628 |
++--------+---------+-------------------------------------------------------------------------------------------------------------------------------------+
+

@@ -1,0 +1,42 @@
+Software Version: 11.7.0.119
+Embedded FlashPro5 programmer detected.
+programmer 'E20010PSQS' : FlashPro5
+Opened '/home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/designer/PROC_SUBSYSTEM/PROC_SUBSYSTEM_fp/PROC_SUBSYSTEM.pro'
+The 'open_project' command succeeded.
+IPD file '/home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/designer/PROC_SUBSYSTEM/PROC_SUBSYSTEM.ipd' has been loaded successfully.
+DESIGN : PROC_SUBSYSTEM;  CHECKSUM : 6EF5;  PDB_VERSION : 1.9
+The 'set_programming_file' command succeeded.
+Warning: Programming is already enabled for device 'M2S025'.
+The 'enable_device' command succeeded.
+The 'set_programming_action' command succeeded.
+programmer 'E20010PSQS' : Scan Chain...
+Warning: programmer 'E20010PSQS' : Vpump has been selected on programmer AND an externally provided Vpump has also been detected. Using externally provided Vpump voltage source.
+programmer 'E20010PSQS' : Check Chain...
+programmer 'E20010PSQS' : Scan and Check Chain PASSED.
+programmer 'E20010PSQS' : device 'M2S025' : Executing action PROGRAM
+programmer 'E20010PSQS' : device 'M2S025' : Family: SmartFusion2
+programmer 'E20010PSQS' : device 'M2S025' : Product:      M2S025
+programmer 'E20010PSQS' : device 'M2S025' : EXPORT ISC_ENABLE_RESULT[32] = 00766444
+programmer 'E20010PSQS' : device 'M2S025' : EXPORT CRCERR: [1] = 0
+programmer 'E20010PSQS' : device 'M2S025' : EXPORT EDCERR: [1] = 0
+programmer 'E20010PSQS' : device 'M2S025' : TEMPGRADE: ROOM
+programmer 'E20010PSQS' : device 'M2S025' : EXPORT VPPRANGE: [3] = 2
+programmer 'E20010PSQS' : device 'M2S025' : VPPRANGE: HIGH
+programmer 'E20010PSQS' : device 'M2S025' : EXPORT TEMP: [8] = 64
+programmer 'E20010PSQS' : device 'M2S025' : EXPORT VPP: [8] = 76
+programmer 'E20010PSQS' : device 'M2S025' : Programming FPGA Array and eNVM...
+programmer 'E20010PSQS' : device 'M2S025' : ===================================================================================
+programmer 'E20010PSQS' : device 'M2S025' : EXPORT DSN[128] = 244cbb55e711a177190501224ed8620e
+programmer 'E20010PSQS' : device 'M2S025' : ===================================================================================
+programmer 'E20010PSQS' : device 'M2S025' : Finished: Tue Nov 15 13:17:11 2016 (Elapsed time 00:01:05)
+programmer 'E20010PSQS' : device 'M2S025' : Executing action PROGRAM PASSED.
+programmer 'E20010PSQS' : Chain programming PASSED.
+Chain Programming Finished: Tue Nov 15 13:17:11 2016 (Elapsed time 00:01:05)
+
+                        o - o - o - o - o - o
+
+The 'run_selected_actions' command succeeded.
+The 'set_programming_file' command succeeded.
+Project saved.
+The 'save_project' command succeeded.
+Project closed.

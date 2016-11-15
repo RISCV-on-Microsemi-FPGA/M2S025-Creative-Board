@@ -1,0 +1,69 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.7 (Version 11.7.0.119)
+
+Date      :  Tue Nov 15 12:57:59 2016
+Project   :  /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign
+Component :  PROC_SUBSYSTEM
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/COREAHBTOAPB3/3.1.100/rtl/vlog/core/coreahbtoapb3.v
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/COREAHBTOAPB3/3.1.100/rtl/vlog/core/coreahbtoapb3_ahbtoapbsm.v
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/COREAHBTOAPB3/3.1.100/rtl/vlog/core/coreahbtoapb3_apbaddrdata.v
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/COREAHBTOAPB3/3.1.100/rtl/vlog/core/coreahbtoapb3_penablescheduler.v
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/COREAXITOAHBL/3.0.101/rtl/vlog/core/CoreAXItoAHBL.v
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/COREAXITOAHBL/3.0.101/rtl/vlog/core/CoreAXItoAHBL_AHBMasterCtrl.v
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/COREAXITOAHBL/3.0.101/rtl/vlog/core/CoreAXItoAHBL_AXIOutReg.v
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/COREAXITOAHBL/3.0.101/rtl/vlog/core/CoreAXItoAHBL_AXISlaveCtrl.v
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/COREAXITOAHBL/3.0.101/rtl/vlog/core/CoreAXItoAHBL_RAM_syncWrAsyncRd.v
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/COREAXITOAHBL/3.0.101/rtl/vlog/core/CoreAXItoAHBL_WSTRBAddrOffset.v
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/COREAXITOAHBL/3.0.101/rtl/vlog/core/CoreAXItoAHBL_WSTRBPopCntr.v
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/COREAXITOAHBL/3.0.101/rtl/vlog/core/CoreAXItoAHBL_readByteCnt.v
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/COREAXITOAHBL/3.0.101/rtl/vlog/core/CoreAXItoAHBL_synchronizer.v
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/COREJTAGDEBUG/1.0.2/rtl/vlog/core/corejtagdebug.v
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/COREJTAGDEBUG/1.0.2/rtl/vlog/core/corejtagdebug_uj_jtag.v
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/CORERISCV_AXI4/1.0.8/rtl/verilog/AsyncFifo.v
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/CORERISCV_AXI4/1.0.8/rtl/verilog/CoreRISCV_AXI4.v
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/CORERISCV_AXI4/1.0.8/rtl/verilog/DebugTransportModuleJtag.v
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/CORERISCV_AXI4/1.0.8/rtl/verilog/Top.v
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite.v
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_addrdec.v
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_defaultslavesm.v
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_masterstage.v
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_matrix4x16.v
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_slavearbiter.v
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_slavestage.v
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core/coreapb3.v
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core/coreapb3_iaddr_reg.v
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core/coreapb3_muxptob3.v
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/CoreGPIO/3.1.101/rtl/vlog/core/coregpio.v
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/CoreTimer/2.0.103/rtl/vlog/core/coretimer.v
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/User/GlueLogic/AXI_GLUE_LOGIC/1.0.7/vlog/AXI_glue_logic.v
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/work/PROC_SUBSYSTEM/CoreUARTapb_0/rtl/vlog/core/Clock_gen.v
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/work/PROC_SUBSYSTEM/CoreUARTapb_0/rtl/vlog/core/CoreUART.v
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/work/PROC_SUBSYSTEM/CoreUARTapb_0/rtl/vlog/core/CoreUARTapb.v
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/work/PROC_SUBSYSTEM/CoreUARTapb_0/rtl/vlog/core/Rx_async.v
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/work/PROC_SUBSYSTEM/CoreUARTapb_0/rtl/vlog/core/Tx_async.v
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/work/PROC_SUBSYSTEM/CoreUARTapb_0/rtl/vlog/core/fifo_256x8_g4.v
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/work/PROC_SUBSYSTEM/PROC_SUBSYSTEM.v
+
+Stimulus files for all Simulation tools:
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/work/PROC_SUBSYSTEM/CoreUARTapb_0/mti/scripts/bfmtovec_compile.do
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/work/PROC_SUBSYSTEM/CoreUARTapb_0/mti/scripts/coreuart_usertb_apb_master.bfm
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/work/PROC_SUBSYSTEM/CoreUARTapb_0/mti/scripts/coreuart_usertb_include.bfm
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/work/PROC_SUBSYSTEM/CoreUARTapb_0/mti/scripts/wave_vlog_amba.do
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/work/PROC_SUBSYSTEM/subsystem.bfm
+
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/CoreUARTapb/5.5.101/rtl/vlog/amba_bfm/bfm_ahbl.v
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/CoreUARTapb/5.5.101/rtl/vlog/amba_bfm/bfm_ahblapb.v
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/CoreUARTapb/5.5.101/rtl/vlog/amba_bfm/bfm_ahbslave.v
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/CoreUARTapb/5.5.101/rtl/vlog/amba_bfm/bfm_ahbslaveext.v
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/CoreUARTapb/5.5.101/rtl/vlog/amba_bfm/bfm_ahbtoapb.v
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/CoreUARTapb/5.5.101/rtl/vlog/amba_bfm/bfm_apb.v
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/CoreUARTapb/5.5.101/rtl/vlog/amba_bfm/bfm_apbslave.v
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/CoreUARTapb/5.5.101/rtl/vlog/amba_bfm/bfm_apbslaveext.v
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/CoreUARTapb/5.5.101/rtl/vlog/amba_bfm/bfm_apbtoapb.v
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/CoreUARTapb/5.5.101/rtl/vlog/amba_bfm/bfm_main.v
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/work/PROC_SUBSYSTEM/CoreUARTapb_0/coreparameters.v
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/work/PROC_SUBSYSTEM/CoreUARTapb_0/rtl/vlog/test/user/testbench.v
+

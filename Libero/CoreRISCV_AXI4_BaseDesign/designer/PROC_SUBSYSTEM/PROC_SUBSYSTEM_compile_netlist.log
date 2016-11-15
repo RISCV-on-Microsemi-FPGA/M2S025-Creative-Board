@@ -1,0 +1,34 @@
+
+===============================================================================.
+
+Info: Global design data:
+      Total globals:                       9
+      Globals that cannot be demoted:      1
+      Globals considered for demotion:     8
+
+
+Info: List of globals that cannot be demoted:
+    CLK    ASYN   DATA   Instance Name
+    ---    ----   ----   -------------
+    8428   0      0      'MSS_SUBSYSTEM_sb_0/CCC_0/GL0_INST'
+
+Info: List of globals considered for demotion:
+    CLK    ASYN   DATA   Instance Name
+    ---    ----   ----   -------------
+    140    0      0      'COREJTAGDEBUG_0/coretck_clkint'
+    75     0      0      'MSS_SUBSYSTEM_sb_0/MSS_SUBSYSTEM_sb_MSS_0/FIC_2_APB_M_PCLK_inferred_clock_RNIPLUD'
+    20     0      0      'MSS_SUBSYSTEM_sb_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT'
+    0      1479   741    'MSS_SUBSYSTEM_sb_0/CORERESETP_0/INIT_DONE_int_RNIESS'
+    0      77     0      'MSS_SUBSYSTEM_sb_0/MSS_SUBSYSTEM_sb_MSS_0/MSS_ADLIB_INST_RNI1HN6'
+    0      75     0      'COREJTAGDEBUG_0/UJTAG_0_RNITVV6'
+    0      20     0      'MSS_SUBSYSTEM_sb_0/CORERESETP_0/sm0_areset_n_clk_base_RNIU66D'
+    0      18     0      'MSS_SUBSYSTEM_sb_0/CORERESETP_0/sdif0_areset_n_rcosc_RNIAAG1'
+
+Info: Demotion information:
+      Disconnected 741 data pins from global 'MSS_SUBSYSTEM_sb_0/CORERESETP_0/INIT_DONE_int_RNIESS'.
+Info: CMPG4-302: Added 0 row global instances.
+Info: CMPG4-303: Deleted 0 global instances.
+
+===============================================================================.
+
+INFO: No User PDC file(s) was specified.

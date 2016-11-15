@@ -1,0 +1,69 @@
+Info: No timing constraint has been associated to the 'Place and Route' tool. 'Place and Route' will be run in non Timing Driven mode.
+***** Place and Route Configurations *****
+Timing-driven            : OFF
+Power-driven             : OFF
+High-effort              : OFF
+Repair min-delay         : ON
+Incremental              : OFF
+
+INFO: Reading User PDC file /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/constraint/io/user.pdc. 0 error(s) and 0 warning(s)
+
+Running the I/O Bank and Globals Assigner.
+Info:  I/O Bank and Globals Assigner identified 58 fixed I/O macros, 10 unfixed I/O macros
+
+I/O Bank and Globals Assigner completed successfully.
+Total time spent in I/O Bank and Globals Assigner: 0 seconds
+
+Placer V4.0 - 11.7.0
+Design: PROC_SUBSYSTEM                  Started: Tue Nov 15 13:08:22 2016
+
+Initializing Standard Placement ...
+Placing design...
+End of placement.
+Pre-Placement Runtime        : 19 seconds
+Placement Runtime            : 114 seconds
+
+Placer completed successfully.
+
+Design: PROC_SUBSYSTEM
+Finished: Tue Nov 15 13:10:44 2016
+Total CPU Time:     00:02:21            Total Elapsed Time: 00:02:22
+Total Memory Usage: 504.3 Mbytes
+                        o - o - o - o - o - o
+
+
+Router
+Design: PROC_SUBSYSTEM                  Started: Tue Nov 15 13:10:54 2016
+
+
+Router completed successfully.
+
+Design: PROC_SUBSYSTEM
+Finished: Tue Nov 15 13:11:56 2016
+Total CPU Time:     00:01:01            Total Elapsed Time: 00:01:02
+Total Memory Usage: 1114.2 Mbytes
+                        o - o - o - o - o - o
+
+
+Router
+Design: PROC_SUBSYSTEM                  Started: Tue Nov 15 13:12:04 2016
+
+
+Router completed successfully.
+
+Design: PROC_SUBSYSTEM
+Finished: Tue Nov 15 13:13:05 2016
+Total CPU Time:     00:01:00            Total Elapsed Time: 00:01:01
+Total Memory Usage: 1114.2 Mbytes
+                        o - o - o - o - o - o
+
+Resource Usage
++---------------+-------+-------+------------+
+| Type          | Used  | Total | Percentage |
++---------------+-------+-------+------------+
+| 4LUT          | 13721 | 27696 | 49.54      |
+| DFF           | 10234 | 27696 | 36.95      |
+| I/O Register  | 0     | 408   | 0.00       |
+| Logic Element | 16032 | 27696 | 57.89      |
++---------------+-------+-------+------------+
+
