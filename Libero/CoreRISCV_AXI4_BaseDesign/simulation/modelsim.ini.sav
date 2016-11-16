@@ -52,6 +52,10 @@ SmartFusion2 = /usr/local/microsemi/Libero_v11.7/Libero/lib/modelsim/precompiled
 
 
 
+
+
+
+
 syncad_vhdl_lib = /usr/local/microsemi/Libero_v11.7/Libero/lib/actel/syncad_vhdl_lib
 
 [vcom]

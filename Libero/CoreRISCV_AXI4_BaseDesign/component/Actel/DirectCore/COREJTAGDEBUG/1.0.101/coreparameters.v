@@ -1,9 +1,8 @@
 //--------------------------------------------------------------------
 // Created by Microsemi SmartDesign Wed Nov 16 16:21:37 2016
-// Parameters for COREAHBTOAPB3
+// Parameters for COREJTAGDEBUG
 //--------------------------------------------------------------------
 
 
 parameter FAMILY = 19;
-parameter HDL_license = "U";
-parameter testbench = "User";
+parameter IR_CODE = 'h55;

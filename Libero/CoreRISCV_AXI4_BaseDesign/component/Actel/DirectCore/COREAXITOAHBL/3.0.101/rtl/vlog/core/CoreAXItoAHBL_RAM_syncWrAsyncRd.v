@@ -43,7 +43,7 @@ output  [63:0]  rdData;
 ////////////////////////////////////////////////////////////////////////////////
 // RAM Inference
 ////////////////////////////////////////////////////////////////////////////////
-reg     [63:0]  mem [15:0];   /* synthesis syn_ramstyle = "registers" */  
+reg     [63:0]  mem [15:0];     /* synthesis syn_ramstyle = "registers" */   
 reg     [3:0]   wrAddrReg;
 reg     [63:0]  wrDataReg;
 reg             wrEnReg;

@@ -1,6 +1,6 @@
 Microsemi Corporation - Microsemi Libero Software Release v11.7 (Version 11.7.0.119)
 
-Date      :  Tue Nov 15 12:57:59 2016
+Date      :  Wed Nov 16 16:21:46 2016
 Project   :  /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign
 Component :  PROC_SUBSYSTEM
 Family    :  SmartFusion2
@@ -20,12 +20,12 @@ HDL source files for all Synthesis and Simulation tools:
     /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/COREAXITOAHBL/3.0.101/rtl/vlog/core/CoreAXItoAHBL_WSTRBPopCntr.v
     /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/COREAXITOAHBL/3.0.101/rtl/vlog/core/CoreAXItoAHBL_readByteCnt.v
     /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/COREAXITOAHBL/3.0.101/rtl/vlog/core/CoreAXItoAHBL_synchronizer.v
-    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/COREJTAGDEBUG/1.0.2/rtl/vlog/core/corejtagdebug.v
-    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/COREJTAGDEBUG/1.0.2/rtl/vlog/core/corejtagdebug_uj_jtag.v
-    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/CORERISCV_AXI4/1.0.8/rtl/verilog/AsyncFifo.v
-    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/CORERISCV_AXI4/1.0.8/rtl/verilog/CoreRISCV_AXI4.v
-    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/CORERISCV_AXI4/1.0.8/rtl/verilog/DebugTransportModuleJtag.v
-    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/CORERISCV_AXI4/1.0.8/rtl/verilog/Top.v
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/COREJTAGDEBUG/1.0.101/rtl/vlog/core/corejtagdebug.v
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/COREJTAGDEBUG/1.0.101/rtl/vlog/core/corejtagdebug_uj_jtag.v
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/CORERISCV_AXI4/1.0.100/rtl/verilog/AsyncFifo.v
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/CORERISCV_AXI4/1.0.100/rtl/verilog/CoreRISCV_AXI4.v
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/CORERISCV_AXI4/1.0.100/rtl/verilog/DebugTransportModuleJtag.v
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/CORERISCV_AXI4/1.0.100/rtl/verilog/Top.v
     /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite.v
     /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_addrdec.v
     /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_defaultslavesm.v
