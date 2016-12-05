@@ -1,0 +1,33 @@
+data DESIGN CoreRISCV_AXI4_BaseDesign
+data HPATH '/home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/SF2_CoreRISCV_AXI4_TickTackToe/designer/CoreRISCV_AXI4_BaseDesign'
+data CPATH '/home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/SF2_CoreRISCV_AXI4_TickTackToe/constraint/io'
+data CDIR '/home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/SF2_CoreRISCV_AXI4_TickTackToe/constraint'
+data ETYPE IO
+data FAM SmartFusion2
+data DIE PA4M2500_N
+data PACKAGE vf256
+data HYDRA_EXPORT_DATA 1
+data HYDRA_PRESERVE_DATA_FILES 1
+data VCCI_1.2_VOLTR COM
+data VCCI_1.5_VOLTR COM
+data VCCI_1.8_VOLTR COM
+data VCCI_2.5_VOLTR COM
+data VCCI_3.3_VOLTR COM
+data FLOW_TYPE NEW
+data AFL '/home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/SF2_CoreRISCV_AXI4_TickTackToe/designer/CoreRISCV_AXI4_BaseDesign/CoreRISCV_AXI4_BaseDesign.afl'
+data ADL '/home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/SF2_CoreRISCV_AXI4_TickTackToe/designer/CoreRISCV_AXI4_BaseDesign/CoreRISCV_AXI4_BaseDesign.adl'
+data LOC '/home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/SF2_CoreRISCV_AXI4_TickTackToe/designer/CoreRISCV_AXI4_BaseDesign/CoreRISCV_AXI4_BaseDesign.loc'
+data SEG '/home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/SF2_CoreRISCV_AXI4_TickTackToe/designer/CoreRISCV_AXI4_BaseDesign/CoreRISCV_AXI4_BaseDesign.seg'
+data NMAT_PDC '/home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/SF2_CoreRISCV_AXI4_TickTackToe/designer/CoreRISCV_AXI4_BaseDesign/CoreRISCV_AXI4_BaseDesign.nmatinit.pdc'
+data SMAT_SEG '/home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/SF2_CoreRISCV_AXI4_TickTackToe/designer/CoreRISCV_AXI4_BaseDesign/CoreRISCV_AXI4_BaseDesign.seg'
+
+data IO_PDC_0 '/home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/SF2_CoreRISCV_AXI4_TickTackToe/constraint/io/user.pdc'
+data TARGET_IOPDC  '/home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/SF2_CoreRISCV_AXI4_TickTackToe/constraint/io/user.pdc'
+data TARGET_FPPDC  '/home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/SF2_CoreRISCV_AXI4_TickTackToe/constraint/fp/user.pdc'
+data TARGET_DEVICES_FOR_MIGRATION 'PA4M2500_N '
+data RESTRICTPROBEPINS 1
+data RESTRICTSPIPINS 0
+data GDEV_SKIP_UNASSIGN_CMP_CHECK    1 
+data HIDE_MIGRATION_PINS_MENU        1 
+data IO_DEFT_STD LVCMOS25
+

@@ -1,0 +1,11 @@
+KEY IDE_DES_TOOL "Ide"
+KEY IDE_DES_ADB_PATH "/home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/M2S025_Electroncia_Project/designer/impl1/CoreRISCV_AXI4_BaseDesign.adb"
+LIST SOURCE_FILES
+VALUE "/home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/M2S025_Electroncia_Project/synthesis/CoreRISCV_AXI4_BaseDesign.edn;edn"
+VALUE "/home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/M2S025_Electroncia_Project/constraint/io/user.pdc;pdc"
+ENDLIST
+LIST OPTIONAL_FILES
+VALUE "/home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/M2S025_Electroncia_Project/synthesis/CoreRISCV_AXI4_BaseDesign_sdc.sdc;Skipped"
+ENDLIST
+LIST VCD_FILES
+ENDLIST
