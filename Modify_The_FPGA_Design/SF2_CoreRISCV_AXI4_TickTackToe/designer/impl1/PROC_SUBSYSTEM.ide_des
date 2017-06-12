@@ -1,0 +1,14 @@
+KEY IDE_DES_TOOL "Ide"
+KEY IDE_DES_ADB_PATH "C:\Users\ciaran.lappin\Desktop\RISCV_UPDATE\M2S025-Creative-Board-master\Libero\11_8\SF2_CoreRISCV_AXI4_TickTackToe\designer\impl1\PROC_SUBSYSTEM.adb"
+LIST SOURCE_FILES
+VALUE "C:\Users\ciaran.lappin\Desktop\RISCV_UPDATE\M2S025-Creative-Board-master\Libero\11_8\SF2_CoreRISCV_AXI4_TickTackToe\synthesis\PROC_SUBSYSTEM.edn;edn"
+VALUE "C:\Users\ciaran.lappin\Desktop\RISCV_UPDATE\M2S025-Creative-Board-master\Libero\11_8\SF2_CoreRISCV_AXI4_TickTackToe\constraint\io\user.pdc;pdc"
+VALUE "C:\Users\ciaran.lappin\Desktop\RISCV_UPDATE\M2S025-Creative-Board-master\Libero\11_8\SF2_CoreRISCV_AXI4_TickTackToe\constraint\PROC_SUBSYSTEM_derived_constraints.sdc;sdc"
+VALUE "C:\Users\ciaran.lappin\Desktop\RISCV_UPDATE\M2S025-Creative-Board-master\Libero\11_8\SF2_CoreRISCV_AXI4_TickTackToe\constraint\fp\PROC_SUBSYSTEM_derived_constraints.pdc;pdc"
+VALUE "C:\Users\ciaran.lappin\Desktop\RISCV_UPDATE\M2S025-Creative-Board-master\Libero\11_8\SF2_CoreRISCV_AXI4_TickTackToe\constraint\user.sdc;sdc"
+ENDLIST
+LIST OPTIONAL_FILES
+VALUE "C:\Users\ciaran.lappin\Desktop\RISCV_UPDATE\M2S025-Creative-Board-master\Libero\11_8\SF2_CoreRISCV_AXI4_TickTackToe\synthesis\PROC_SUBSYSTEM_sdc.sdc;Skipped"
+ENDLIST
+LIST VCD_FILES
+ENDLIST

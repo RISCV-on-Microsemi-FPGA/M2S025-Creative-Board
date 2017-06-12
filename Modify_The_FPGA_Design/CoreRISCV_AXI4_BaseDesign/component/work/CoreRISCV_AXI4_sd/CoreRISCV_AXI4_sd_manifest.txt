@@ -1,0 +1,15 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.7 (Version 11.7.0.119)
+
+Date      :  Thu Nov 10 11:31:42 2016
+Project   :  /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/RISCV_BaseDesign
+Component :  CoreRISCV_AXI4_sd
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/RISCV_BaseDesign/component/Actel/DirectCore/CORERISCV_AXI4/1.0.8/rtl/verilog/AsyncFifo.v
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/RISCV_BaseDesign/component/Actel/DirectCore/CORERISCV_AXI4/1.0.8/rtl/verilog/CoreRISCV_AXI4.v
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/RISCV_BaseDesign/component/Actel/DirectCore/CORERISCV_AXI4/1.0.8/rtl/verilog/DebugTransportModuleJtag.v
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/RISCV_BaseDesign/component/Actel/DirectCore/CORERISCV_AXI4/1.0.8/rtl/verilog/Top.v
+    /home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/RISCV_BaseDesign/component/work/CoreRISCV_AXI4_sd/CoreRISCV_AXI4_sd.v
+
