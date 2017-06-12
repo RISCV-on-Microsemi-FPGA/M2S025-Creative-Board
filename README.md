@@ -17,8 +17,7 @@ The memory map for each design is available within each Libero project.
 The Creative Development Kit includes a SmartFusion2 M2S025 SoC FPGA. Details of the features of this development board are available [here](https://www.microsemi.com/products/fpga-soc/design-resources/dev-kits/smartfusion2/future-creative-board)
 
 ### FlashPro Express
-This project includes two FlashPro Express projects that can be used to program the development board's FPGA. A stand alone installer for FlashPro Express is available from the following page:
-http://www.microsemi.com/products/fpga-soc/design-resources/programming/flashpro#software. Please note that you only need to install this standalone version of FlashPro Express if you do not have the Libero tools installed.
+This project includes FlashPro Express projects that can be used to program the development boards FPGA. A standalone installer for FlashPro Express is available [here](https://www.microsemi.com/products/fpga-soc/design-resources/programming/flashpro#software) . Please note that you only need to install this standalone version of FlashPro Express if you do not have Libero tools installed.
 
 * The first FlashPro Express project, PROC_SUBSYSTEM_BaseDesign, allows software debugging using the embedded FlashPro5. The same JTAG port is used for programming the FPGA and debugging RISC-V software.
 * The second FlashPro Express Project, PROC_SUBSYSTEM_TickTackToe, contains the design used along side of the TickTackToe example software found [here](https://github.com/RISCV-on-Microsemi-FPGA/M2GL025-Creative-Board/tree/master/ExampleSoftware) . To use this deisgn a daughter board is needed from Adafruit, more information on this can be found [here](https://www.adafruit.com/product/1651)
