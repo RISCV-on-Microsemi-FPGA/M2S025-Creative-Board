@@ -1,5 +1,5 @@
-# M2S025-Creative-Board
-Sample RISC-V Libero project(s) for the SmartFusion2 M2S025 Creative Development Board.
+# SmartFusion2 Creative Development Board RISC-V Sample Designs 
+Sample RISC-V Libero projects for the SmartFusion2 (M2S025) Creative Development Board.
 
 This project contains a Libero project containing an FPGA design including a RISC-V RV32IM soft processor. Programming bitstreams are also included so that you do not need to run through the full FPGA design flow in order to start developping software for RISC-V.
 
