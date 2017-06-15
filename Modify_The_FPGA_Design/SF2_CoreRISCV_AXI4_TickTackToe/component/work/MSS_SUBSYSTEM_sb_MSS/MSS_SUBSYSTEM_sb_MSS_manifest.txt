@@ -1,0 +1,37 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.8 (Version 11.8.0.26)
+
+Date      :  Thu Jun 15 10:02:16 2017
+Project   :  C:\Users\ciaran.lappin\Desktop\Github\SF2_M2S025_Creative_Development_Kit\Modify_The_FPGA_Design\SF2_CoreRISCV_AXI4_TickTackToe
+Component :  MSS_SUBSYSTEM_sb_MSS
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/ciaran.lappin/Desktop/Github/SF2_M2S025_Creative_Development_Kit/Modify_The_FPGA_Design/SF2_CoreRISCV_AXI4_TickTackToe/component/work/MSS_SUBSYSTEM_sb_MSS/MSS_SUBSYSTEM_sb_MSS.v
+
+HDL source files for Synopsys SynplifyPro Synthesis tool:
+    C:/Users/ciaran.lappin/Desktop/Github/SF2_M2S025_Creative_Development_Kit/Modify_The_FPGA_Design/SF2_CoreRISCV_AXI4_TickTackToe/component/work/MSS_SUBSYSTEM_sb_MSS/MSS_SUBSYSTEM_sb_MSS_syn.v
+
+HDL source files for Mentor Precision Synthesis tool:
+    C:/Users/ciaran.lappin/Desktop/Github/SF2_M2S025_Creative_Development_Kit/Modify_The_FPGA_Design/SF2_CoreRISCV_AXI4_TickTackToe/component/work/MSS_SUBSYSTEM_sb_MSS/MSS_SUBSYSTEM_sb_MSS_pre.v
+
+Stimulus files for all Simulation tools:
+    C:/Users/ciaran.lappin/Desktop/Github/SF2_M2S025_Creative_Development_Kit/Modify_The_FPGA_Design/SF2_CoreRISCV_AXI4_TickTackToe/component/Actel/SmartFusion2MSS/MSS/1.1.500/peripheral_init.bfm
+    C:/Users/ciaran.lappin/Desktop/Github/SF2_M2S025_Creative_Development_Kit/Modify_The_FPGA_Design/SF2_CoreRISCV_AXI4_TickTackToe/component/work/MSS_SUBSYSTEM_sb_MSS/CM3_compile_bfm.tcl
+    C:/Users/ciaran.lappin/Desktop/Github/SF2_M2S025_Creative_Development_Kit/Modify_The_FPGA_Design/SF2_CoreRISCV_AXI4_TickTackToe/component/work/MSS_SUBSYSTEM_sb_MSS/test.bfm
+    C:/Users/ciaran.lappin/Desktop/Github/SF2_M2S025_Creative_Development_Kit/Modify_The_FPGA_Design/SF2_CoreRISCV_AXI4_TickTackToe/component/work/MSS_SUBSYSTEM_sb_MSS/user.bfm
+
+Firmware files for all Software IDE tools:
+    C:/Users/ciaran.lappin/Desktop/Github/SF2_M2S025_Creative_Development_Kit/Modify_The_FPGA_Design/SF2_CoreRISCV_AXI4_TickTackToe/component/work/MSS_SUBSYSTEM_sb_MSS/sys_config_mddr_define.h
+    C:/Users/ciaran.lappin/Desktop/Github/SF2_M2S025_Creative_Development_Kit/Modify_The_FPGA_Design/SF2_CoreRISCV_AXI4_TickTackToe/component/work/MSS_SUBSYSTEM_sb_MSS/sys_config_mss_clocks.h
+
+Configuration files to be used for Programming:
+    C:/Users/ciaran.lappin/Desktop/Github/SF2_M2S025_Creative_Development_Kit/Modify_The_FPGA_Design/SF2_CoreRISCV_AXI4_TickTackToe/component/work/MSS_SUBSYSTEM_sb_MSS/ENVM.cfg
+
+Configuration files to be used for all Simulation tools:
+    C:/Users/ciaran.lappin/Desktop/Github/SF2_M2S025_Creative_Development_Kit/Modify_The_FPGA_Design/SF2_CoreRISCV_AXI4_TickTackToe/component/work/MSS_SUBSYSTEM_sb_MSS/ENVM.cfg
+    C:/Users/ciaran.lappin/Desktop/Github/SF2_M2S025_Creative_Development_Kit/Modify_The_FPGA_Design/SF2_CoreRISCV_AXI4_TickTackToe/component/work/MSS_SUBSYSTEM_sb_MSS/MDDR_init.bfm
+
+Configuration files to be used for Power Analysis:
+    C:/Users/ciaran.lappin/Desktop/Github/SF2_M2S025_Creative_Development_Kit/Modify_The_FPGA_Design/SF2_CoreRISCV_AXI4_TickTackToe/component/work/MSS_SUBSYSTEM_sb_MSS/MDDR_init.reg
+

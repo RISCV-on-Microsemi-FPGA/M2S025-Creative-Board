@@ -1,0 +1,10 @@
+KEY IDE_DES_TOOL "Ide"
+KEY IDE_DES_ADB_PATH "/home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/M2S025_Electroncia_Project/designer/impl1/SF2_CoreRISCV_AXI4_BaseDesign_TickTackToe.adb"
+LIST SOURCE_FILES
+VALUE "/home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/M2S025_Electroncia_Project/synthesis/SF2_CoreRISCV_AXI4_BaseDesign_TickTackToe.edn;edn"
+ENDLIST
+LIST OPTIONAL_FILES
+VALUE "/home/user/CoreRISCV_AXI4/M2S025-Creative-Board-master/Libero/M2S025_Electroncia_Project/synthesis/SF2_CoreRISCV_AXI4_BaseDesign_TickTackToe_sdc.sdc;Skipped"
+ENDLIST
+LIST VCD_FILES
+ENDLIST

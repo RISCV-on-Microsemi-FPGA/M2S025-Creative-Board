@@ -1,0 +1,16 @@
+Project Name: RISCV_BaseDesign
+Location: /scratch/FutureBoard/RISCV_BaseDesign
+Description: 
+Preferred HDL Type: Verilog
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : M2S025-VF256
+Family         : SmartFusion2
+Die            : M2S025
+Package        : 256 VF
+Speed          : STD
+Core Voltage   : 1.2
+Range          : COM
