@@ -1,0 +1,45 @@
+Software Version: 11.8.0.26
+creating folder: C:\Users\ciaran.lappin\Desktop\Github\SF2_M2S025_Creative_Development_Kit\Programming_The_Target_Device\PROC_SUBSYSTEM_BaseDesign
+Embedded FlashPro5 programmer detected.
+programmer 'E20010PSQS' : FlashPro5
+Created new project 'C:\Users\ciaran.lappin\Desktop\Github\SF2_M2S025_Creative_Development_Kit\Programming_The_Target_Device\PROC_SUBSYSTEM_BaseDesign\PROC_SUBSYSTEM_BaseDesign.pro'
+STAPL file 'C:\Users\ciaran.lappin\Desktop\Github\SF2_M2S025_Creative_Development_Kit\Programming_The_Target_Device\PROC_SUBSYSTEM_BaseDesign\M2S025_1.stp' has been loaded successfully.
+DESIGN : PROC_SUBSYSTEM;  CHECKSUM : 9EBE;  ALG_VERSION : 2
+creating folder: C:\Users\ciaran.lappin\Desktop\Github\SF2_M2S025_Creative_Development_Kit\Programming_The_Target_Device\PROC_SUBSYSTEM_BaseDesign\projectData
+Software Version: 11.8.0.26
+STAPL file 'C:\Users\ciaran.lappin\Desktop\Github\SF2_M2S025_Creative_Development_Kit\Programming_The_Target_Device\PROC_SUBSYSTEM_BaseDesign\M2S025_1.stp' has been loaded successfully.
+DESIGN : PROC_SUBSYSTEM;  CHECKSUM : 9EBE;  ALG_VERSION : 2
+Embedded FlashPro5 programmer detected.
+programmer 'E20010PSQS' : FlashPro5
+
+Created FlashPro Express Job Project.
+programmer 'E20010PSQS' : Scan Chain...
+Warning: programmer 'E20010PSQS' : Vpump has been selected on programmer AND an externally provided Vpump has also been detected. Using externally provided Vpump voltage source.
+programmer 'E20010PSQS' : Check Chain...
+programmer 'E20010PSQS' : Scan and Check Chain PASSED.
+programmer 'E20010PSQS' : device 'M2S025' : Executing action PROGRAM
+programmer 'E20010PSQS' : device 'M2S025' : Family: SmartFusion2
+programmer 'E20010PSQS' : device 'M2S025' : Product:      M2S025
+programmer 'E20010PSQS' : device 'M2S025' : EXPORT ISC_ENABLE_RESULT[32] = 00756344
+programmer 'E20010PSQS' : device 'M2S025' : EXPORT CRCERR[1] = 0
+programmer 'E20010PSQS' : device 'M2S025' : EXPORT EDCERR[1] = 0
+programmer 'E20010PSQS' : device 'M2S025' : TEMPGRADE: ROOM
+programmer 'E20010PSQS' : device 'M2S025' : EXPORT VPPRANGE[3] = 2
+programmer 'E20010PSQS' : device 'M2S025' : VPPRANGE: HIGH
+programmer 'E20010PSQS' : device 'M2S025' : EXPORT TEMP[8] = 63
+programmer 'E20010PSQS' : device 'M2S025' : EXPORT VPP[8] = 75
+programmer 'E20010PSQS' : device 'M2S025' : Programming FPGA Array and eNVM...
+programmer 'E20010PSQS' : device 'M2S025' : EXPORT Fabric component digest[256] = ffd93450db104bd1eab924ab3cc4628553ea95f64e15f79537c2851bb0243715
+programmer 'E20010PSQS' : device 'M2S025' : EXPORT eNVM component digest[256] = 956d94953e23e130552c430289dbcc215f8932231a413e4a66e54b0367fc702e
+programmer 'E20010PSQS' : device 'M2S025' : ===================================================================================
+programmer 'E20010PSQS' : device 'M2S025' : EXPORT DSN[128] = 244cbb55e711a177190501224ed8620e
+programmer 'E20010PSQS' : device 'M2S025' : ===================================================================================
+programmer 'E20010PSQS' : device 'M2S025' : Finished: Thu Jun 15 12:16:54 2017 (Elapsed time 00:00:37)
+programmer 'E20010PSQS' : device 'M2S025' : Executing action PROGRAM PASSED.
+programmer 'E20010PSQS' : Chain programming PASSED.
+Chain Programming Finished: Thu Jun 15 12:16:54 2017 (Elapsed time 00:00:37)
+
+                        o - o - o - o - o - o
+
+Project saved.
+Project closed.
