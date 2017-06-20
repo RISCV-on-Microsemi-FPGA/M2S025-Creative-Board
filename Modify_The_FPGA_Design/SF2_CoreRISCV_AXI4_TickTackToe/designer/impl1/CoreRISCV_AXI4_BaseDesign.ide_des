@@ -1,0 +1,14 @@
+KEY IDE_DES_TOOL "Ide"
+KEY IDE_DES_ADB_PATH "C:\Users\ciaran.lappin\Desktop\M2S025-Creative-Board-master\Libero\SF2_CoreRISCV_AXI4_TickTackToe\designer\impl1\CoreRISCV_AXI4_BaseDesign.adb"
+LIST SOURCE_FILES
+VALUE "C:\Users\ciaran.lappin\Desktop\M2S025-Creative-Board-master\Libero\SF2_CoreRISCV_AXI4_TickTackToe\synthesis\CoreRISCV_AXI4_BaseDesign.edn;edn"
+VALUE "C:\Users\ciaran.lappin\Desktop\M2S025-Creative-Board-master\Libero\SF2_CoreRISCV_AXI4_TickTackToe\constraint\io\user.pdc;pdc"
+VALUE "C:\Users\ciaran.lappin\Desktop\M2S025-Creative-Board-master\Libero\SF2_CoreRISCV_AXI4_TickTackToe\constraint\CoreRISCV_AXI4_BaseDesign_derived_constraints.sdc;sdc"
+VALUE "C:\Users\ciaran.lappin\Desktop\M2S025-Creative-Board-master\Libero\SF2_CoreRISCV_AXI4_TickTackToe\constraint\fp\CoreRISCV_AXI4_BaseDesign_derived_constraints.pdc;pdc"
+VALUE "C:\Users\ciaran.lappin\Desktop\M2S025-Creative-Board-master\Libero\SF2_CoreRISCV_AXI4_TickTackToe\constraint\user.sdc;sdc"
+ENDLIST
+LIST OPTIONAL_FILES
+VALUE "C:\Users\ciaran.lappin\Desktop\M2S025-Creative-Board-master\Libero\SF2_CoreRISCV_AXI4_TickTackToe\synthesis\CoreRISCV_AXI4_BaseDesign_sdc.sdc;Skipped"
+ENDLIST
+LIST VCD_FILES
+ENDLIST
