@@ -1,5 +1,5 @@
 ================================================================================
-        RISCV_BaseDesign for the IGLOO2 Creative Developement Board
+         RISCV_BaseDesign for the IGLOO2 Creative Developement Board
 ================================================================================
 
 This design is targeted at the IGLOO2 Creative Developement Board. It uses
