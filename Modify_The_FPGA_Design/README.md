@@ -17,9 +17,12 @@ The memory map for each design is available within each Libero project.
 The SmartFusion2 Creative Development Board includes a SmartFusion2 M2S025 FPGA. Details of the features available for this development board are available [here](https://www.microsemi.com/products/fpga-soc/design-resources/dev-kits/smartfusion2/future-creative-board) .
 
 ### Libero Projects
-This folder contains CoreRISCV_AXI4 Libero V11.8 projects.
+This folder contains CoreRISCV_AXI4 Libero V11.9 project.
 
 * MIV_RV32IMA_L1_AHB_BaseDesign, contains a simple RISCV design which allows users to use basic peripherals such as GPIO, UART and Timers. 
+
+This folder contains CoreRISCV_AXI4 Libero V11.8 projects.
+
 * CoreRISCV_AXI4_BaseDesign, contains a simple RISCV design which allows users to use basic peripherals such as GPIO, UART and Timers. 
 * SF2_CoreRISCV_AXI4_TickTackToe, contains the design used along side of the TickTackToe example software found [here](https://github.com/RISCV-on-Microsemi-FPGA/M2GL025-Creative-Board/tree/master/ExampleSoftware). To use this deisgn a daughter board is needed from Adafruit, more information on this can be found [here](https://www.adafruit.com/product/1651)
 
