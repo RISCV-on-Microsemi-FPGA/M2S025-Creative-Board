@@ -1,0 +1,16 @@
+Software Version: 11.9.0.4
+Opened 'C:\Users\ciaran.lappin\Downloads\M2S025-Creative-Board-master\Modify_The_FPGA_Design\MIV_RV32IMA_L1_AHB_BaseDesign\designer\PROC_SUBSYSTEM\PROC_SUBSYSTEM_fp\PROC_SUBSYSTEM.pro'
+The 'open_project' command succeeded.
+PDB file 'C:\Users\ciaran.lappin\Downloads\M2S025-Creative-Board-master\Modify_The_FPGA_Design\MIV_RV32IMA_L1_AHB_BaseDesign\designer\PROC_SUBSYSTEM\0a0a0845-571d-4fbd-971d-dfbd571ddfbd.pdb' has been loaded successfully.
+DESIGN : PROC_SUBSYSTEM;  CHECKSUM : ADF0;  PDB_VERSION : 1.9
+The 'load_programming_data' command succeeded.
+Successfully exported STAPL file: 'C:\Users\ciaran.lappin\Downloads\M2S025-Creative-Board-master\Modify_The_FPGA_Design\MIV_RV32IMA_L1_AHB_BaseDesign\designer\PROC_SUBSYSTEM\export\PROC_SUBSYSTEM_BaseDesign_M2S025.stp'; file programs Fabric and eNVM.
+Fabric component digest: eb1b9882680998646a40ede8a5a4d85e51bc9832bc5b0204817a36db0d25b33b
+eNVM component digest: 3cf1e667421c8f73d0a92e8c00305a2ac3dc53ced09ed7a797cc537ac7af6e89
+Finished: Tue Oct 30 15:11:17 2018 (Elapsed time 00:00:19)
+
+The 'export_single_stapl' command succeeded.
+The 'set_programming_file' command succeeded.
+Project saved.
+The 'save_project' command succeeded.
+Project closed.
