@@ -1,0 +1,35 @@
+# Synopsys Constraint Checker(syntax only), version map201609actrcp1, Build 005R, built Jan 25 2017
+# Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+# Written on Tue Oct 30 14:12:55 2018
+
+
+##### DESIGN INFO #######################################################
+
+Top View:                "PROC_SUBSYSTEM"
+Constraint File(s):      "C:\Users\ciaran.lappin\Downloads\M2S025-Creative-Board-master\Modify_The_FPGA_Design\MIV_RV32IMA_L1_AHB_BaseDesign\designer\PROC_SUBSYSTEM\synthesis.fdc"
+
+#Run constraint checker to find more issues with constraints.
+#########################################################################
+
+
+
+No issues found in constraint syntax.
+
+
+
+Clock Summary
+*************
+
+Start                                                        Requested     Requested     Clock                         Clock                   Clock
+Clock                                                        Frequency     Period        Type                          Group                   Load 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+CLK0_PAD                                                     50.0 MHz      20.000        declared                      default_clkgroup        0    
+COREJTAGDEBUG_UJTAG_WRAPPER|UDRCK_inferred_clock             100.0 MHz     10.000        inferred                      Inferred_clkgroup_1     17   
+COREJTAGDEBUG_UJ_JTAG_85_0_0|un1_DUT_TCK_inferred_clock      100.0 MHz     10.000        inferred                      Inferred_clkgroup_0     335  
+MSS_SUBSYSTEM_sb_0/CCC_0/GL0                                 66.0 MHz      15.152        generated (from CLK0_PAD)     default_clkgroup        5444 
+MSS_SUBSYSTEM_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT          50.0 MHz      20.000        declared                      default_clkgroup        31   
+MSS_SUBSYSTEM_sb_0/MSS_SUBSYSTEM_sb_MSS_0/CLK_CONFIG_APB     16.5 MHz      60.606        declared                      default_clkgroup        109  
+System                                                       100.0 MHz     10.000        system                        system_clkgroup         0    
+TCK                                                          6.0 MHz       166.670       declared                      default_clkgroup        0    
+====================================================================================================================================================
