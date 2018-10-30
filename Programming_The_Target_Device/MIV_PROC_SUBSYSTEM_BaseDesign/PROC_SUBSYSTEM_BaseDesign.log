@@ -1,0 +1,40 @@
+Software Version: 11.9.0.4
+creating folder: C:\Users\ciaran.lappin\Downloads\RISC-V-Creative-Board-master\Programming_The_Target_Device\PROC_SUBSYSTEM_BaseDesign
+Embedded FlashPro5 programmer detected.
+programmer 'E20010PSQS' : FlashPro5
+Created new project 'C:\Users\ciaran.lappin\Downloads\RISC-V-Creative-Board-master\Programming_The_Target_Device\PROC_SUBSYSTEM_BaseDesign\PROC_SUBSYSTEM_BaseDesign.pro'
+STAPL file 'C:\Users\ciaran.lappin\Downloads\RISC-V-Creative-Board-master\Programming_The_Target_Device\PROC_SUBSYSTEM_BaseDesign\M2S025_1.stp' has been loaded successfully.
+DESIGN : PROC_SUBSYSTEM;  CHECKSUM : ADF0;  ALG_VERSION : 2
+creating folder: C:\Users\ciaran.lappin\Downloads\RISC-V-Creative-Board-master\Programming_The_Target_Device\PROC_SUBSYSTEM_BaseDesign\projectData
+Software Version: 11.9.0.4
+STAPL file 'C:\Users\ciaran.lappin\Downloads\RISC-V-Creative-Board-master\Programming_The_Target_Device\PROC_SUBSYSTEM_BaseDesign\M2S025_1.stp' has been loaded successfully.
+DESIGN : PROC_SUBSYSTEM;  CHECKSUM : ADF0;  ALG_VERSION : 2
+Embedded FlashPro5 programmer detected.
+programmer 'E20010PSQS' : FlashPro5
+
+Created FlashPro Express Job Project.
+programmer 'E20010PSQS' : Scan Chain...
+programmer 'E20010PSQS' : Check Chain...
+programmer 'E20010PSQS' : Scan and Check Chain PASSED.
+Warning: programmer 'E20010PSQS' : device 'M2S025' : Device authentication failure: Failed to validate device certificate.
+programmer 'E20010PSQS' : device 'M2S025' : Executing action PROGRAM
+programmer 'E20010PSQS' : device 'M2S025' : Family: SmartFusion2
+programmer 'E20010PSQS' : device 'M2S025' : Product:      M2S025
+programmer 'E20010PSQS' : device 'M2S025' : EXPORT ISC_ENABLE_RESULT[32] = 00756244
+programmer 'E20010PSQS' : device 'M2S025' : EXPORT CRCERR[1] = 0
+programmer 'E20010PSQS' : device 'M2S025' : EXPORT EDCERR[1] = 0
+programmer 'E20010PSQS' : device 'M2S025' : Programming FPGA Array and eNVM...
+programmer 'E20010PSQS' : device 'M2S025' : EXPORT Fabric component digest[256] = eb1b9882680998646a40ede8a5a4d85e51bc9832bc5b0204817a36db0d25b33b
+programmer 'E20010PSQS' : device 'M2S025' : EXPORT eNVM component digest[256] = 3cf1e667421c8f73d0a92e8c00305a2ac3dc53ced09ed7a797cc537ac7af6e89
+programmer 'E20010PSQS' : device 'M2S025' : ===================================================================================
+programmer 'E20010PSQS' : device 'M2S025' : EXPORT DSN[128] = 244cbb55e711a177190501224ed8620e
+programmer 'E20010PSQS' : device 'M2S025' : ===================================================================================
+programmer 'E20010PSQS' : device 'M2S025' : Finished: Tue Oct 30 15:24:41 2018 (Elapsed time 00:00:39)
+programmer 'E20010PSQS' : device 'M2S025' : Executing action PROGRAM PASSED.
+programmer 'E20010PSQS' : Chain programming PASSED.
+Chain Programming Finished: Tue Oct 30 15:24:41 2018 (Elapsed time 00:00:39)
+
+                        o - o - o - o - o - o
+
+Project saved.
+Project closed.
